@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="sectionHomepage">
+        <div class="image">
+            <h1 class="heading">..Restaurent..</h1>
+            <div class="card d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.K2zzbJKEwIZ2AsfN315ypwHaHf?pid=ImgDet&rs=1" class="image1" />
+                <h1 class="heading1">Tasty kitchen</h1>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="card1">
+                    <img src="https://th.bing.com/th/id/OIP.NA_4US-CLgUcNXdIs0UF8QHaEc?pid=ImgDet&rs=1" class="image2" onclick="display('sectionNonveg')" />
+                    <h1 class="heading2"> Non veg</h1>
+                </div>
+                <div class="card1">
+                    <img src="https://www.recipetineats.com/wp-content/uploads/2017/07/Vegetable-Curry.jpg?resize=900" class="image2" onclick="display('sectionVeg')" />
+                    <h1 class="heading2"> Veg</h1>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="card1">
+                    <img src="https://th.bing.com/th/id/OIP.VtQZiLCYi_nZUCLDwXeYSQHaE8?pid=ImgDet&rs=1" class="image2" onclick="display('sectionFastfoods')" />
+                    <h1 class="heading2"> Fast foods</h1>
+                </div>
+                <div class="card1">
+                    <img src="https://th.bing.com/th/id/OIP.0lRD9n_1Y0XpTVGlQ3qzvgHaE8?pid=ImgDet&rs=1" class="image2" onclick="display('sectionIcecreams')" />
+                    <h1 class="heading2">Icecreams</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionNonveg">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.travenix.com/wp-content/uploads/2020/10/Hyderabadi-Biryani-1.jpg" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.13d06e44e7f4d69e287dd52be4c5a5a0?rik=UJKbojfPFUEmXg&riu=http%3a%2f%2fcurryworld.files.wordpress.com%2f2013%2f03%2fdsc_0003-imp.jpg&ehk=ShqmRsn8FLv4o34xAs8vc4O0xUE%2f%2fB85NEtAslUMJAI%3d&risl=&pid=ImgRaw&r=0" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/W38Z4BYbQVA/maxresdefault.jpg" class="img" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="card2">
+            <h1 class="heading3">Menu</h1>
+            <div class="card3 d-flex flex-row">
+                <img src="https://vismaifood.com/storage/app/uploads/public/e12/7b7/127/thumb__700_0_0_0_auto.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Chicken dum biryani</h1>
+                    <p class="paragraph">220 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.WO2Dci6FT5xCvgO2YNqnkQHaFj?pid=ImgDet&rs=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Chicken joint</h1>
+                    <p class="paragraph">200 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://1.bp.blogspot.com/-dmr7TvaMJ7c/WRyLh1RZjlI/AAAAAAAAIF4/uPHo3WFtctE8ZS34-s0mkRyNRkU-2-SzgCLcB/s1600/0000000000000000000000A%2B%25281%2529.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Fish fry</h1>
+                    <p class="paragraph">200 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.0XC-Ojw-70926rMQjUeHuQHaEL?pid=ImgDet&rs=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">France curry</h1>
+                    <p class="paragraph">250 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://www.indianfoodrecipesonline.com/wp-content/uploads/2021/02/Ambur-Mutton-Biryani-Recipe-in-Hindi.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Mutton dum biryani</h1>
+                    <p class="paragraph">350 Rs.</p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionHomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionVeg">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.JzL2KQaClcivAwxADQTykAHaE8?pid=ImgDet&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.xvsNQr2Cv1l0chJAikaLBQHaE8?pid=ImgDet&w=1200&h=800&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/xNcYh-NV2BQ/maxresdefault.jpg" class="img" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="card2">
+            <h1 class="heading3">Menu</h1>
+            <div class="card3 d-flex flex-row">
+                <img src="https://eatathomecooks.com/wp-content/uploads/2009/01/fried-rice-new-pic.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Fried rice</h1>
+                    <p class="paragraph">180 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://i1.wp.com/www.bharatzkitchen.com/wp-content/uploads/2017/06/IMG_7444-copy.jpg?fit=1200%2C800" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Veg manchurian</h1>
+                    <p class="paragraph">200 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://2.bp.blogspot.com/-neI6rKuvsKI/VyN8GMrfhzI/AAAAAAAAHls/hugFFTKYgs8lrtUSXx0iEyG-KZwL4bPbwCLcB/s1600/tandoori-paneer-tikka4.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Paneer tikka</h1>
+                    <p class="paragraph">250 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://i1.wp.com/vegecravings.com/wp-content/uploads/2016/07/veg-biryani-recipe-step-by-step-instructions.jpg?fit=3563%2C2976&quality=30&strip=all&ssl=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Veg biryani</h1>
+                    <p class="paragraph">150 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src=https://th.bing.com/th/id/R.44f924928edbec94cdaf8e992a0c19d5?rik=%2bNpPEjxmwxm4BQ&riu=http%3a%2f%2fwww.recipe1.com%2fwp-content%2fuploads%2f2016%2f06%2fCrispy-Fried-Baby-Corn-recipe.jpg&ehk=8BHM8xkGgsjbnJK8bZ%2fxVQMT9jjazAUnYd8Swn8V6gM%3d&risl=&pid=ImgRaw&r=0"" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Crispy baby corn</h1>
+                    <p class="paragraph">250 Rs.</p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionHomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionFastfoods">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.n-x0aGScXztEGuUuN356nQHaE8?pid=ImgDet&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.45a229b827e5984aee48aad061bae8d0?rik=ckl1G7k4ENXTmQ&riu=http%3a%2f%2fwww.recipemasters.in%2fwp-content%2fuploads%2f2015%2f06%2fChiili-garlic-chicken-noodles1.jpeg&ehk=KXNZFagEttBsOJvLj1bNA%2fe%2bC%2fWG97UFZRkL6A6JNFI%3d&risl=&pid=ImgRaw&r=0" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.BEH8rpIxoiUt_AQDRmSYTAHaFY?pid=ImgDet&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="card2">
+            <h1 class="heading3">Menu</h1>
+            <div class="card3 d-flex flex-row">
+                <img src="https://theflavoursofkitchen.com/wp-content/uploads/2018/07/Veggie-and-Chicken-Ramen-1.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Chicken noodles</h1>
+                    <p class="paragraph">160 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.7OFXlXfEOn0uFjHKltLzaAAAAA?pid=ImgDet&rs=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Veg noodles</h1>
+                    <p class="paragraph">140 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/R.d6281ae6e4e776dcfc62ba39c7e3d367?rik=Pb5PQlDPK1anDw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-hcIXU5dX6n0%2fVnK4mIBsbOI%2fAAAAAAAAANE%2f0WLpskQjCOA%2fs1600%2f5ac178b0-86da-4e6f-b71f-ff6dbce633ae.jpg&ehk=KH7QHz%2bNOiO4yzJ2%2bn1Q1HDpC97ScT%2ftD4BkomQJLSw%3d&risl=&pid=ImgRaw&r=0" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Chicken Burger</h1>
+                    <p class="paragraph">200 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Grilled-Veggie-Pizza_EXPS_LSBZ18_48960_D01_18_6b.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Veg bite pizza</h1>
+                    <p class="paragraph">200 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.E1R0Yi5X2ZU8bBn1XpYuXgHaEK?pid=ImgDet&rs=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Pani puri</h1>
+                    <p class="paragraph">50 Rs.</p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionHomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionIcecreams">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.2OMaEgZ4tErKfg-mG1Co0AHaFD?pid=ImgDet&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.tripelle.com/wp-content/uploads/2017/08/pexels-photo-209424.jpeg" class="img" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.WehUbbKDCckGJFGNOdVi4gHaEA?pid=ImgDet&rs=1" class="img" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="card2">
+            <h1 class="heading3">Menu</h1>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/OIP.1lC7cv12QUS5IXQBjZllkQHaHI?pid=ImgDet&rs=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Chocobar</h1>
+                    <p class="paragraph">60 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://content3.jdmagicbox.com/comp/chennai/86/044pk003286/catalogue/arun-ice-creams-choolaimedu-chennai-ice-cream-restaurants-ni1dk7tq7j.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Arun Icecream</h1>
+                    <p class="paragraph">80 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://i0.wp.com/www.charcoalgravel.com/wp-content/uploads/2018/06/Kulfi.jpg?ssl=1" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Kulfi</h1>
+                    <p class="paragraph">60 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/12/LA/ZM/KJ/99314821/amul-real-milk-ice-cream-500x500.jpg" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Amul icecream</h1>
+                    <p class="paragraph">90 Rs.</p>
+                </div>
+            </div>
+            <div class="card3 d-flex flex-row">
+                <img src="https://th.bing.com/th/id/R.9b3a7ec4d949d379e65d6c6ecf7169d6?rik=6BREvihqk1%2fKbw&riu=http%3a%2f%2fohmydish.com%2fwp-content%2fuploads%2f2015%2f07%2fVanilla-ice-cream-with-strawberries-2.jpg&ehk=291wbGKmtYfAgRZuXLBSMb1AaZL79dspo4K8j6WT94E%3d&risl=&pid=ImgRaw&r=0" class="img1" />
+                <div class="d-flex flex-column">
+                    <h1 class="heading4">Vanilla icecream</h1>
+                    <p class="paragraph">100 Rs.</p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionHomepage')">Back</button>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
